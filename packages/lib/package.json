@@ -1,0 +1,37 @@
+{
+  "name": "glassv",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/glass-v.umd.cjs",
+  "module": "./dist/glass-v.js",
+  "exports": {
+    ".": {
+      "import": "./dist/glass-v.js",
+      "require": "./dist/glass-v.umd.cjs"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vue-tsc",
+    "types": "vue-tsc ",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@types/vue": "^2.0.0",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "path": "^0.12.7",
+    "terser": "^5.26.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vue-tsc": "^1.8.25"
+  }
+}
