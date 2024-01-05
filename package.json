@@ -10,7 +10,8 @@
     "build-lib": "bun run --cwd packages/lib build"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "vite-plugin-dts": "^3.7.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"

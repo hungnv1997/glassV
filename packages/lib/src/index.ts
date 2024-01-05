@@ -1,2 +1,2 @@
 import HelloWorld from "./components/HelloWorld.vue";
-export { HelloWorld };
+export const ElHelloWorld: typeof HelloWorld = HelloWorld;
