@@ -7,6 +7,7 @@
   "scripts": {
     "playground": "bun run --cwd packages/playground dev",
     "lib": "bun run --cwd packages/lib dev",
+    "docs": "bun run --cwd packages/docs storybook",
     "build-lib": "bun run --cwd packages/lib build"
   },
   "devDependencies": {

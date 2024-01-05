@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "vue": "^3.3.11",
-    "glassv": "workspace:*"
+    "glassv": "workspace:packages/lib"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",
