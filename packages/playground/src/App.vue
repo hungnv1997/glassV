@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ElHelloWorld } from "glassv";
+import { HelloWorld } from "glassv";
 </script>
 
 <template>
@@ -11,7 +11,7 @@ import { ElHelloWorld } from "glassv";
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <ElHelloWorld msg="Vite + Vue100" />
+  <HelloWorld msg="Vite + Vue100" />
 </template>
 
 <style scoped>
